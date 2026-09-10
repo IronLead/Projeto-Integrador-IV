@@ -1,5 +1,4 @@
-<img width="1600" height="533" alt="<img width="1600" height="533" alt="582707197-b9d83978-fb87-4ecb-a3d6-f221fee1bde4" src="https://github.com/user-attachments/assets/f5e2b092-0334-45ca-9ac9-fe48ef2bee8e" />
-" src="https://github.com/user-attachments/assets/b9d83978-fb87-4ecb-a3d6-f221fee1bde4" />
+<img width="1600" height="533" alt="582707197-b9d83978-fb87-4ecb-a3d6-f221fee1bde4" src="https://github.com/user-attachments/assets/4c78046c-156d-4367-84c7-31a1ce3959be" />
 
 # <h1 align="center"> Aprendizado por Projeto Integrador (API) :brazil:
 
