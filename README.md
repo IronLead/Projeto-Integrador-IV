@@ -98,15 +98,6 @@
 # DESENVOLVIMENTO
 <br>
 
-# COMANDOS UTILIZADOS
-
-<!-- Estrutura reservada: inserir aqui os comandos/scripts utilizados no tratamento e ETL dos dados do ERP ALVO, assim que estiverem disponíveis. -->
-
-<img src="https://github.com/user-attachments/assets/d3cc67f6-258f-47bf-a1b8-4cd6cf8841fd" width="40"/> <img src="https://github.com/user-attachments/assets/680b9d0e-807f-41d0-8552-304c62e4baf8" width="40"/>
-
-* 🔗 *A definir*
-<br>
-
 # *Dashboard* 
 
 # DOCUMENTAÇÃO
