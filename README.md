@@ -1,10 +1,10 @@
 <img width="2170" height="725" alt="ChatGPT Image 10 de set  de 2026, 20_09_55" src="https://github.com/user-attachments/assets/5bb8afad-61a1-4d3b-a615-05d6d224a0b9" />
 
-# <h1 align="center"> Aprendizado por Projeto Integrador (API) :brazil:
+# <h1 align="center"> PROJETO INTEGRADOR APLICADO A LOGÍSTICA (API) :brazil:
 
 <p align="justify"> A aprendizagem baseada em Projetos Integradores adota uma abordagem dinâmica e colaborativa, inspirada em metodologias ágeis de gestão. Por meio dessa metodologia, os discentes constroem conhecimentos e desenvolvem competências técnicas e interpessoais ao atuarem em projetos de caráter prático, estruturados em ciclos de planejamento, execução e retrospectiva. Valoriza-se, sobretudo, a interdisciplinaridade, permitindo a integração de diferentes áreas do conhecimento na resolução de desafios reais, o que promove a adaptação contínua da equipe e a entrega incremental de resultados ao longo do processo. </p>
 
-# <h1 align="center"> *Project-Based Learning with Integrative Projects (API)* 󠁧󠁢󠁥us
+# <h1 align="center"> *INTEGRATED PROJECT APPLIED TO LOGISTICS (API)* 󠁧󠁢󠁥us
 
 <p align="justify">
 <em>Project-Based Learning through Integrative Projects follows a dynamic and collaborative approach, inspired by agile management methodologies. Through this methodology, students build knowledge and develop both technical and interpersonal skills by engaging in practical projects structured into cycles of planning, execution, and retrospective analysis. Interdisciplinarity is particularly emphasized, enabling the integration of different fields of knowledge to address real-world challenges, thereby fostering continuous adaptation and the incremental delivery of results throughout the process.</em>
