@@ -1,4 +1,4 @@
-<img width="1600" height="533" alt="582707197-b9d83978-fb87-4ecb-a3d6-f221fee1bde4" src="https://github.com/user-attachments/assets/4c78046c-156d-4367-84c7-31a1ce3959be" />
+<img width="2170" height="725" alt="ChatGPT Image 10 de set  de 2026, 20_09_55" src="https://github.com/user-attachments/assets/5bb8afad-61a1-4d3b-a615-05d6d224a0b9" />
 
 # <h1 align="center"> Aprendizado por Projeto Integrador (API) :brazil:
 
