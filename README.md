@@ -52,12 +52,12 @@
 
 *Legenda: ✅ Concluído · ⬜ Planejado*
 
-## 📌 SPRINT 0 – CONCEPÇÃO
-- ✅ Backlog do produto.
-- ✅ Reuniões.
-- ✅ GitHub estruturado com link disponibilizado.
-- ✅ Jira Software estruturado.
-- ✅ Atribuição das atividades para a Sprint 1.
+## 📌 SPRINT 0 – DEFINIÇÃO DAS ATRIBUIÇÕES E ENTENDIMENTO DO PROBLEMA
+- ✅ Criação do Backlog do Produto
+- ✅ Reuniões de Alinhamento
+- ✅ Estruturação do Repositório no GitHub
+- ✅ Definição das Tarefas no JiraSoftware
+- ✅ Atribuição das Atividades aos Membros
 
 ## 📌 SPRINT 1 – ENTREGA EM 02/10
 - ⬜ Como gestor de estoque, tratar e higienizar os dados do ERP ALVO, garantindo consistência e confiabilidade nas análises.
