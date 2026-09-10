@@ -127,7 +127,6 @@
 
 # FERRAMENTAS UTILIZADAS 
 * <img src="https://github.com/user-attachments/assets/605548ba-69fb-4fde-bfbf-e077f919fcb7" width="40"/>  *Github*
-* <img width="3840" height="3840" alt="Notion-logo svg" src="https://github.com/user-attachments/assets/82d96f14-a1ab-4935-9af8-9c27c3f0df1b" width="40"/> *Notion*
 * <img src="https://github.com/user-attachments/assets/f8501508-ccc6-4e91-a346-697986a138a8" width="40"/> *Jira Software*
 * <img src="https://github.com/user-attachments/assets/bf25df7a-bd70-482f-8cc6-8a28e014151b" width="40"/> *PowerBI*
 * <img src="https://github.com/user-attachments/assets/d3cc67f6-258f-47bf-a1b8-4cd6cf8841fd" width="40"/>  *Python*
