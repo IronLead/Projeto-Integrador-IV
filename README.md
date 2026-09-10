@@ -90,9 +90,9 @@
 
 | Sprint | Previsão | Status | Histórico |
 |--------|----------|--------|-----------|
-| Sprint 01 – Tratamento de Dados e Estrutura Inicial | 02/10 | Em andamento | *A definir* |
-| Sprint 02 – Indicadores Avançados e Alertas | 30/10 | Planejado | *A definir* |
-| Sprint 03 – Documentação e Entrega Final | 27/11 | Planejado | *A definir* |
+| Sprint 01 – Tratamento de Dados e Dashboard Inicial | 02/10 | Em andamento | *A definir* |
+| Sprint 02 – Estruturação dos Indicadores e Alertas | 30/10 | Planejado | *A definir* |
+| Sprint 03 – Documentação dos Processos e Entrega Final | 27/11 | Planejado | *A definir* |
 <br>
 
 # COMANDOS UTILIZADOS
