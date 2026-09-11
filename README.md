@@ -100,6 +100,19 @@ In this context, the importance of interdisciplinarity stands out, enabling the 
 | Sprint 03 – Documentação dos Processos e Entrega Final | 27/11 | Planejado | *A definir* |
 <br>
 
+# VÍDEO — ENTENDIMENTO DO PROBLEMA
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=3cuBrjPUTWU">
+    <img src="https://img.youtube.com/vi/3cuBrjPUTWU/maxresdefault.jpg" width="600" alt="Vídeo de entendimento do problema - CPTM">
+  </a>
+</p>
+
+<p align="center">
+  ▶️ <a href="https://www.youtube.com/watch?v=3cuBrjPUTWU"><b>Clique aqui para assistir ao vídeo de entendimento do problema</b></a>
+</p>
+<br>
+
 # COMANDOS UTILIZADOS
 
 <!-- Estrutura reservada: inserir aqui os comandos/scripts utilizados no tratamento e ETL dos dados do ERP ALVO, assim que estiverem disponíveis. -->
