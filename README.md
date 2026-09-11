@@ -10,7 +10,9 @@ Nesse contexto, destaca-se a importância da interdisciplinaridade, possibilitan
 # <h1 align="center"> *INTEGRATED PROJECT APPLIED TO LOGISTICS (API)* 󠁧󠁢󠁥us
 
 <p align="justify">
-<em>Project-Based Learning through Integrative Projects follows a dynamic and collaborative approach, inspired by agile management methodologies. Through this methodology, students build knowledge and develop both technical and interpersonal skills by engaging in practical projects structured into cycles of planning, execution, and retrospective analysis. Interdisciplinarity is particularly emphasized, enabling the integration of different fields of knowledge to address real-world challenges, thereby fostering continuous adaptation and the incremental delivery of results throughout the process.</em>
+<em>Integrative Project-Based Learning is characterized by a dynamic, collaborative, and problem-solving-oriented approach, inspired by agile management principles and methodologies. Through this methodology, students have the opportunity to build knowledge and develop technical, analytical, and interpersonal skills by actively participating in practical projects organized into cycles of planning, execution, monitoring, and retrospection.
+
+In this context, the importance of interdisciplinarity stands out, enabling the integration of different fields of knowledge to analyze and solve real-world challenges. This integration fosters a broader perspective on problems, encourages collaboration among team members, and contributes to the development of adaptability in the face of varying scenarios. Furthermore, the methodology enables the incremental delivery of results throughout the process, allowing for continuous assessment, the identification of improvement opportunities, and adjustments to the team's strategies, thereby making the learning experience more meaningful and aligned with the demands of the professional environment.</em>
 </p>
 <br>
 
