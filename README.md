@@ -152,5 +152,7 @@ Agradecemos aos professores, orientadores e colegas de equipe pelo apoio, dedica
 </p>
 <br>
 
+<img width="2170" height="725" alt="ChatGPT Image 10 de set  de 2026, 21_01_44" src="https://github.com/user-attachments/assets/30e18ed5-e035-4870-80af-39296d591961" />
+
 <a href="#topo"></a>
 -------------------------------------------------------------------
