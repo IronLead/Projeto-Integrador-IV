@@ -148,7 +148,11 @@
 # AGRADECIMENTOS 
 
 <p align="justify">
-Agradecemos aos professores, orientadores e colegas de equipe pelo apoio, dedicação e colaboração durante o desenvolvimento deste projeto. Também agradecemos à CPTM pela oportunidade de aplicar os conhecimentos adquiridos em um desafio real de gestão logística. Este trabalho representa um importante aprendizado e o resultado do esforço conjunto de todos os envolvidos.
+Agradecemos aos professores, orientadores e colegas de equipe pelo apoio, dedicação e colaboração ao longo do desenvolvimento deste projeto. As orientações e conhecimentos compartilhados foram fundamentais para o aprimoramento de nossa formação e para a realização deste trabalho.
+
+Agradecemos também à CPTM pela oportunidade de aplicar, em um desafio real de gestão logística, os conhecimentos adquiridos durante nossa trajetória acadêmica. Essa experiência contribuiu significativamente para ampliar nossa compreensão sobre a prática profissional e os desafios presentes na área.
+
+Por fim, reconhecemos o empenho e a contribuição de todos os envolvidos, que foram essenciais para a construção deste projeto e para o aprendizado proporcionado por essa experiência.
 </p>
 <br>
 
