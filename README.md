@@ -2,7 +2,10 @@
 
 # <h1 align="center"> PROJETO INTEGRADOR APLICADO À LOGÍSTICA (API) :brazil:
 
-<p align="justify"> A aprendizagem baseada em Projetos Integradores adota uma abordagem dinâmica e colaborativa, inspirada em metodologias ágeis de gestão. Por meio dessa metodologia, os discentes constroem conhecimentos e desenvolvem competências técnicas e interpessoais ao atuarem em projetos de caráter prático, estruturados em ciclos de planejamento, execução e retrospectiva. Valoriza-se, sobretudo, a interdisciplinaridade, permitindo a integração de diferentes áreas do conhecimento na resolução de desafios reais, o que promove a adaptação contínua da equipe e a entrega incremental de resultados ao longo do processo. </p>
+<p align="justify"> A aprendizagem baseada em Projetos Integradores caracteriza-se por uma abordagem dinâmica, colaborativa e orientada à resolução de problemas, inspirada em princípios e metodologias ágeis de gestão. Por meio dessa metodologia, os discentes têm a oportunidade de construir conhecimentos e desenvolver competências técnicas, analíticas e interpessoais a partir da participação ativa em projetos de caráter prático, organizados em ciclos de planejamento, execução, acompanhamento e retrospectiva.
+
+Nesse contexto, destaca-se a importância da interdisciplinaridade, possibilitando a articulação entre diferentes áreas do conhecimento para a análise e resolução de desafios reais. Essa integração favorece uma visão mais ampla dos problemas, estimula a colaboração entre os integrantes da equipe e contribui para o desenvolvimento da capacidade de adaptação diante de diferentes cenários. Além disso, a metodologia possibilita a entrega incremental de resultados ao longo do processo, permitindo avaliações contínuas, identificação de oportunidades de melhoria e ajustes nas estratégias adotadas pela equipe, tornando o aprendizado mais significativo e alinhado às demandas do ambiente profissional.
+ </p>
 
 # <h1 align="center"> *INTEGRATED PROJECT APPLIED TO LOGISTICS (API)* 󠁧󠁢󠁥us
 
