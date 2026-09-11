@@ -132,7 +132,7 @@ In this context, the importance of interdisciplinarity stands out, enabling the 
 
 # FERRAMENTAS UTILIZADAS 
 * <img src="https://github.com/user-attachments/assets/605548ba-69fb-4fde-bfbf-e077f919fcb7" width="40"/>  *Github*
-* <img src="https://github.com/user-attachments/assets/5b6fc9ff-6979-412a-8ebd-0a2e54b859a0" width="40"/> *Youtube*
+* <img src="https://github.com/user-attachments/assets/291d3a48-87cc-4136-ba62-cf6989d3fcae" width="40"/> *Youtube*
 * <img src="https://github.com/user-attachments/assets/2c1453bf-f097-431a-b5d7-cec6513c1e22" width="40"/>  *Notion*
 * <img src="https://github.com/user-attachments/assets/f8501508-ccc6-4e91-a346-697986a138a8" width="40"/> *Jira Software*
 * <img src="https://github.com/user-attachments/assets/bf25df7a-bd70-482f-8cc6-8a28e014151b" width="40"/> *PowerBI*
