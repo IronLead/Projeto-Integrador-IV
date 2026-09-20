@@ -1,5 +1,3 @@
-[MVP.md](https://github.com/user-attachments/files/32442958/MVP.md)
-
 # 🚀 MVP — SPRINT 1: PIPELINE DE DADOS E MODELO ANALÍTICO CPTM
 
 > **Projeto:** Business Intelligence para Gestão de Estoque e Suprimentos — CPTM (ERP ALVO)  
