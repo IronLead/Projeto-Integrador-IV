@@ -8,13 +8,17 @@
 
 ## 📌 1. O que é este MVP
 
+<p align="justify">
 Esta é a primeira entrega funcional do projeto: um pipeline de dados 100% automatizado em Python que extrai, limpa e organiza os relatórios brutos do ERP ALVO da CPTM, transformando-os em um modelo de dados pronto para análise no Power BI. Este MVP já entrega valor de ponta a ponta — dados confiáveis, chaves de ligação padronizadas e um modelo Star Schema funcional — mesmo antes das camadas mais avançadas (alertas, previsões e Curva ABC completa) previstas para as próximas sprints.
+</p>
 
 ---
 
 ## 🎯 2. Objetivo do Projeto
 
+<p align="justify">
 Desenvolver um pipeline automatizado de dados e um modelo de Business Intelligence para controle de estoque, consumo histórico, reposição e fluxo de aprovações do ERP ALVO da CPTM, com os seguintes objetivos específicos:
+</p>
 
 1. Extrair, tratar e consolidar dados brutos de múltiplos relatórios do ERP ALVO.
 2. Implementar a classificação de Pareto (Curva ABC) diretamente no pipeline de ETL.
@@ -42,7 +46,9 @@ CPTM/
 
 ## 📊 4. Coleta e Descrição das Bases de Dados
 
-Os dados foram extraídos diretamente dos relatórios operacionais do ERP ALVO da CPTM e organizados em duas categorias: **Dimensões** (cadastros) e **Fatos** (transações).
+<p align="justify">
+Os dados foram extraídos diretamente dos relatórios operacionais do ERP ALVO da CPTM e organizados em duas categorias: <strong>Dimensões</strong> (cadastros) e <strong>Fatos</strong> (transações).
+</p>
 
 ### A. Tabelas de Dimensão (Cadastros)
 
@@ -67,7 +73,9 @@ Os dados foram extraídos diretamente dos relatórios operacionais do ERP ALVO d
 
 ## 🏗️ 5. Arquitetura do Modelo de Dados — Star Schema
 
-O modelo adota o **Star Schema (Esquema em Estrela)**, padrão da indústria para Data Warehouse e BI: tabelas de **Dimensão** (contexto — "quem, o quê, quando, onde") no topo, filtrando tabelas de **Fato** (eventos numéricos — quantidade, valor, SLA) na base.
+<p align="justify">
+O modelo adota o <strong>Star Schema (Esquema em Estrela)</strong>, padrão da indústria para Data Warehouse e BI: tabelas de <strong>Dimensão</strong> (contexto — "quem, o quê, quando, onde") no topo, filtrando tabelas de <strong>Fato</strong> (eventos numéricos — quantidade, valor, SLA) na base.
+</p>
 
 ```mermaid
 graph TD
@@ -96,7 +104,9 @@ graph TD
 
 ## 🔑 6. Chaves Sintéticas de Ligação (`ID_*`)
 
+<p align="justify">
 Para que o Power BI detecte os relacionamentos 1:N automaticamente, o ETL cria e padroniza 5 chaves, sempre posicionadas nas primeiras colunas de cada tabela:
+</p>
 
 | Chave | Origem (Dimensão) | Fatos Conectados | Formato |
 | :--- | :--- | :--- | :--- |
@@ -123,11 +133,15 @@ Para que o Power BI detecte os relacionamentos 1:N automaticamente, o ETL cria e
 
 ## 🛠️ 7. Pipeline de ETL em Python (`etl_cptm_powerbi.py`)
 
-O script consolida, limpa e exporta todas as tabelas com bibliotecas **Pandas**, **PyArrow** e a engine Rust **Calamine**. Principais etapas:
+<p align="justify">
+O script consolida, limpa e exporta todas as tabelas com bibliotecas <strong>Pandas</strong>, <strong>PyArrow</strong> e a engine Rust <strong>Calamine</strong>. Principais etapas:
+</p>
 
 ### 7.1. Leitura acelerada com a engine Rust `calamine`
 
-Os relatórios do ERP ALVO chegam apenas em Excel (`.xlsx`/`.xls`/`.xlsm`). A engine padrão do Pandas (`openpyxl`) é lenta em arquivos grandes; a engine `calamine` (escrita em Rust) leu o pipeline completo (9 tabelas) em **~18,5 segundos**, contra **~4min45s** do `openpyxl` — um ganho de **~15x**:
+<p align="justify">
+Os relatórios do ERP ALVO chegam apenas em Excel (<code>.xlsx</code>/<code>.xls</code>/<code>.xlsm</code>). A engine padrão do Pandas (<code>openpyxl</code>) é lenta em arquivos grandes; a engine <code>calamine</code> (escrita em Rust) leu o pipeline completo (9 tabelas) em <strong>~18,5 segundos</strong>, contra <strong>~4min45s</strong> do <code>openpyxl</code> — um ganho de <strong>~15x</strong>:
+</p>
 
 ```python
 def processar_dimensao_produtos() -> pd.DataFrame:
@@ -166,7 +180,9 @@ def reordenar_colunas_id(df: pd.DataFrame) -> pd.DataFrame:
 
 ### 7.3. Unpivot (`pd.melt`) da tabela de consumo `fConsumoHistorico_RES75`
 
-O RES75 chega em formato matricial (uma coluna por ano/indicador: `2014 MOV`, `2014 PCA`, ..., `2026 PCA`), incompatível com o Star Schema e com medidas DAX dinâmicas. O `pd.melt()` transforma essas colunas em linhas:
+<p align="justify">
+O RES75 chega em formato matricial (uma coluna por ano/indicador: <code>2014 MOV</code>, <code>2014 PCA</code>, ..., <code>2026 PCA</code>), incompatível com o Star Schema e com medidas DAX dinâmicas. O <code>pd.melt()</code> transforma essas colunas em linhas:
+</p>
 
 ```python
 df_unpivoted = pd.melt(
@@ -209,7 +225,9 @@ Pct_Aderencia_PCA = DIVIDE([Consumo_Realizado_Qtd], [Consumo_Planejado_PCA], 0)
 
 ### 7.4. Classificação de Pareto (Curva ABC) injetada no ETL
 
-O cálculo da Curva ABC é feito em Python (e não em DAX), a partir do consumo total agrupado por produto em `fConsumoHistorico_RES75`, e injetado como novos atributos em `dProdutos`:
+<p align="justify">
+O cálculo da Curva ABC é feito em Python (e não em DAX), a partir do consumo total agrupado por produto em <code>fConsumoHistorico_RES75</code>, e injetado como novos atributos em <code>dProdutos</code>:
+</p>
 
 ```python
 def enriquecer_dprodutos_curva_abc(df_produtos, df_consumo) -> pd.DataFrame:
@@ -237,7 +255,9 @@ Novos atributos gerados em `dProdutos`: `Classe_ABC`, `Rank_Consumo`, `Quantidad
 
 ### 7.5. Exportação dual (CSV + Parquet)
 
+<p align="justify">
 Cada tabela tratada é exportada em dois formatos:
+</p>
 
 ```python
 df_resultado.to_csv(caminho_csv, index=False, sep=";", encoding="utf-8-sig")
@@ -274,7 +294,7 @@ df_resultado.to_parquet(caminho_parquet, index=False)
 | 🔴 Classe C | 14.146 produtos | 5% finais |
 | ⚪ Sem Consumo | 42.204 produtos (74,3% do catálogo) | Sem giro recente |
 
-> **Conclusão prática:** a CPTM possui um volume expressivo de itens cadastrados sem giro recente, o que evidencia oportunidade imediata de racionalização de estoque e identificação de obsolescência.
+> <p align="justify"><strong>Conclusão prática:</strong> a CPTM possui um volume expressivo de itens cadastrados sem giro recente, o que evidencia oportunidade imediata de racionalização de estoque e identificação de obsolescência.</p>
 
 ---
 
@@ -291,7 +311,9 @@ df_resultado.to_parquet(caminho_parquet, index=False)
 
 ## 🏁 10. Status Atual e Próximos Passos
 
-Este MVP cobre a fundação de dados da **Sprint 1**: coleta, tratamento, modelagem Star Schema e cálculo da Curva ABC. As próximas sprints incluem:
+<p align="justify">
+Este MVP cobre a fundação de dados da <strong>Sprint 1</strong>: coleta, tratamento, modelagem Star Schema e cálculo da Curva ABC. As próximas sprints incluem:
+</p>
 
 - **Sprint 2:** alertas de estoque parado/ruptura, análises preditivas de consumo, cobertura em dias, indicadores de eficiência logística.
 - **Sprint 3:** documentação técnica final do modelo para integração corporativa e dashboard gerencial consolidado com KPIs estratégicos.
