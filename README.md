@@ -7,15 +7,6 @@
 Nesse contexto, destaca-se a importância da interdisciplinaridade, possibilitando a articulação entre diferentes áreas do conhecimento para a análise e resolução de desafios reais. Essa integração favorece uma visão mais ampla dos problemas, estimula a colaboração entre os integrantes da equipe e contribui para o desenvolvimento da capacidade de adaptação diante de diferentes cenários. Além disso, a metodologia possibilita a entrega incremental de resultados ao longo do processo, permitindo avaliações contínuas, identificação de oportunidades de melhoria e ajustes nas estratégias adotadas pela equipe, tornando o aprendizado mais significativo e alinhado às demandas do ambiente profissional.
  </p>
 
-# <h1 align="center"> *INTEGRATED PROJECT APPLIED TO LOGISTICS (API)* 󠁧󠁢󠁥us
-
-<p align="justify">
-<em>Integrative Project-Based Learning is characterized by a dynamic, collaborative, and problem-solving-oriented approach, inspired by agile management principles and methodologies. Through this methodology, students have the opportunity to build knowledge and develop technical, analytical, and interpersonal skills by actively participating in practical projects organized into cycles of planning, execution, monitoring, and retrospection.
-
-In this context, the importance of interdisciplinarity stands out, enabling the integration of different fields of knowledge to analyze and solve real-world challenges. This integration fosters a broader perspective on problems, encourages collaboration among team members, and contributes to the development of adaptability in the face of varying scenarios. Furthermore, the methodology enables the incremental delivery of results throughout the process, allowing for continuous assessment, the identification of improvement opportunities, and adjustments to the team's strategies, thereby making the learning experience more meaningful and aligned with the demands of the professional environment.</em>
-</p>
-<br>
-
 # :small_orange_diamond: ÍNDICE
 * [Sobre o Projeto](#sobre-o-projeto)
 * [Objetivo](#objetivo)
