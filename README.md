@@ -7,6 +7,7 @@
 Nesse contexto, destaca-se a importância da interdisciplinaridade, possibilitando a articulação entre diferentes áreas do conhecimento para a análise e resolução de desafios reais. Essa integração favorece uma visão mais ampla dos problemas, estimula a colaboração entre os integrantes da equipe e contribui para o desenvolvimento da capacidade de adaptação diante de diferentes cenários. Além disso, a metodologia possibilita a entrega incremental de resultados ao longo do processo, permitindo avaliações contínuas, identificação de oportunidades de melhoria e ajustes nas estratégias adotadas pela equipe, tornando o aprendizado mais significativo e alinhado às demandas do ambiente profissional.
  </p>
 
+
 # :small_orange_diamond: ÍNDICE
 * [Sobre o Projeto](#sobre-o-projeto)
 * [Objetivo](#objetivo)
