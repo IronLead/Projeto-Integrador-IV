@@ -128,14 +128,14 @@
 
 <!-- Estrutura reservada: inserir aqui o link do relatório/documentação técnica do projeto assim que estiver disponível. -->
 
-* <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 *A definir*
+* <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 [Relatório - Sprint 1](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/Relatorio-Sprint-1.pdf)
 <br>
 
 # APRESENTAÇÃO EM SLIDE
 
 <!-- Estrutura reservada: inserir aqui os links das apresentações em slide de cada sprint assim que estiverem disponíveis. -->
 
-* <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 Sprint_1 — *A definir*
+* <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 Sprint_1 — [Apresentação - Sprint 1](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/Apresentacao-Sprint-1.pdf)
 * <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 Sprint_2 — *A definir*
 * <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 Sprint_3 — *A definir*
 <br>
