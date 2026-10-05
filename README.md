@@ -2,10 +2,9 @@
 
 # <h1 align="center"> PROJETO INTEGRADOR APLICADO À LOGÍSTICA (API) :brazil:
 
-<p align="justify"> A aprendizagem baseada em Projetos Integradores caracteriza-se por uma abordagem dinâmica, colaborativa e orientada à resolução de problemas, inspirada em princípios e metodologias ágeis de gestão. Por meio dessa metodologia, os discentes têm a oportunidade de construir conhecimentos e desenvolver competências técnicas, analíticas e interpessoais a partir da participação ativa em projetos de caráter prático, organizados em ciclos de planejamento, execução, acompanhamento e retrospectiva.
+<p align="justify">A aprendizagem baseada em Projetos Integradores caracteriza-se por uma abordagem dinâmica, colaborativa e orientada à resolução de problemas, inspirada em princípios e metodologias ágeis de gestão. Por meio dessa metodologia, os discentes têm a oportunidade de construir conhecimentos e desenvolver competências técnicas, analíticas e interpessoais a partir da participação ativa em projetos de caráter prático, organizados em ciclos de planejamento, execução, acompanhamento e retrospectiva.</p>
 
-Nesse contexto, destaca-se a importância da interdisciplinaridade, possibilitando a articulação entre diferentes áreas do conhecimento para a análise e resolução de desafios reais. Essa integração favorece uma visão mais ampla dos problemas, estimula a colaboração entre os integrantes da equipe e contribui para o desenvolvimento da capacidade de adaptação diante de diferentes cenários. Além disso, a metodologia possibilita a entrega incremental de resultados ao longo do processo, permitindo avaliações contínuas, identificação de oportunidades de melhoria e ajustes nas estratégias adotadas pela equipe, tornando o aprendizado mais significativo e alinhado às demandas do ambiente profissional.
- </p>
+<p align="justify">Nesse contexto, destaca-se a importância da interdisciplinaridade, possibilitando a articulação entre diferentes áreas do conhecimento para a análise e resolução de desafios reais. Essa integração favorece uma visão mais ampla dos problemas, estimula a colaboração entre os integrantes da equipe e contribui para o desenvolvimento da capacidade de adaptação diante de diferentes cenários. Além disso, a metodologia possibilita a entrega incremental de resultados ao longo do processo, permitindo avaliações contínuas, identificação de oportunidades de melhoria e ajustes nas estratégias adotadas pela equipe, tornando o aprendizado mais significativo e alinhado às demandas do ambiente profissional.</p>
 
 
 # :small_orange_diamond: ÍNDICE
@@ -36,13 +35,13 @@ Nesse contexto, destaca-se a importância da interdisciplinaridade, possibilitan
 
 | Foto | Nome | Departamento | Função | LinkedIn & GitHub |
 | :---: | :--- | :--- | :--- | :--- |
-| <img src="Imagem/Marcilio.jpeg" width="50"> | Marcilio Santos | Desenvolvedor do Power BI | Product Owner | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/marcilio-oliveira-20273a104/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/mos2812) |
 | <img src="Imagem/Abner.jpeg" width="50"> | Abner Morais | Desenvolvedor do Power BI | Scrum Master | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abner-morais-44b711103/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Abnormorais99) |
-| <img src="Imagem/matheus-augusto.jpeg" width="50"> | Matheus Augusto | Desenvolvedor do GitHub | Membro da equipe | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-augusto-silva-santos/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/maugustto) |
-| <img src="Imagem/Vitor.jpeg" width="50"> | Vitor Hugo | Tratamento de Dados | Membro da equipe | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/vitor-hugo-nascimento-9b161531b/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/vitor411) |
+| <img src="Imagem/Marcilio.jpeg" width="50"> | Marcilio Santos | Desenvolvedor do Power BI | Product Owner | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/marcilio-oliveira-20273a104/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/mos2812) |
 | <img src="Imagem/Alan.jpeg" width="50"> | Alan Jean | Documentação dos Processos | Membro da Equipe | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/alan-jean-195312219/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/alanjean) |
 | <img src="Imagem/Marco.jpeg" width="50"> | Marco Rangel | Tratamento de Dados | Membro da Equipe | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rangel-marco/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/marcorangel73) |
 | <img src="Imagem/matheus-alves.jpeg" width="50"> | Matheus Alves | Documentação dos Processos | Membro da Equipe | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-siqueira-a11186201/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/matheussiqueira14) |
+| <img src="Imagem/matheus-augusto.jpeg" width="50"> | Matheus Augusto | Desenvolvedor do GitHub | Membro da equipe | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-augusto-silva-santos/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/maugustto) |
+| <img src="Imagem/Vitor.jpeg" width="50"> | Vitor Hugo | Tratamento de Dados | Membro da equipe | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/vitor-hugo-nascimento-9b161531b/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/vitor411) |
 <br>
 
 # CRONOGRAMA DAS SPRINTS
@@ -56,49 +55,55 @@ Nesse contexto, destaca-se a importância da interdisciplinaridade, possibilitan
 - ✅ Definição das Tarefas no JiraSoftware
 - ✅ Atribuição das Atividades aos Membros
 
-## 📌 SPRINT 1 – ENTREGA EM 02/10
-- ⬜ Como gestor de estoque, tratar e higienizar os dados do ERP ALVO, garantindo consistência e confiabilidade nas análises.
-- ⬜ Como gestor do projeto, estruturar o repositório no GitHub para garantir rastreabilidade e versionamento dos artefatos.
-- ⬜ Como analista de dados, modelar a base com o histórico de movimentações para realizar análises temporais de entradas e saídas.
-- ⬜ Como gestor de estoque, visualizar no dashboard a quantidade total de itens, o valor total imobilizado e o estoque médio.
-- ⬜ Como usuário do dashboard, aplicar filtros por almoxarifado, período, tipo de material e centro de custo.
-- ⬜ Como analista de logística, acompanhar a evolução temporal do estoque e o histórico de entradas e saídas.
-- ⬜ Como usuário final, navegar por uma interface intuitiva e acessível, com o menor número de cliques possível.
-- ⬜ Como analista de logística, visualizar os indicadores de giro de estoque por material (alta e baixa rotatividade).
-- ⬜ Como gestor financeiro, consultar o tempo médio de permanência dos materiais armazenados.
-- ⬜ Como gestor financeiro, visualizar a classificação automatizada da Curva ABC por criticidade e impacto orçamentário.
+## 📌 SPRINT 1 – ENTREGA EM 05/10/2026
+<div align="justify">
+<ul>
+<li>⬜ Como gestor de estoque, tratar e higienizar os dados do ERP ALVO, garantindo consistência e confiabilidade nas análises.</li>
+<li>⬜ Como gestor do projeto, estruturar o repositório no GitHub para garantir rastreabilidade e versionamento dos artefatos.</li>
+<li>⬜ Como analista de dados, modelar a base com o histórico de movimentações para realizar análises temporais de entradas e saídas.</li>
+<li>⬜ Como gestor de estoque, visualizar no dashboard a quantidade total de itens, o valor total imobilizado e o estoque médio.</li>
+<li>⬜ Como usuário do dashboard, aplicar filtros por almoxarifado, período, tipo de material e centro de custo.</li>
+<li>⬜ Como analista de logística, acompanhar a evolução temporal do estoque e o histórico de entradas e saídas.</li>
+<li>⬜ Como usuário final, navegar por uma interface intuitiva e acessível, com o menor número de cliques possível.</li>
+<li>⬜ Como analista de logística, visualizar os indicadores de giro de estoque por material (alta e baixa rotatividade).</li>
+<li>⬜ Como gestor financeiro, consultar o tempo médio de permanência dos materiais armazenados.</li>
+<li>⬜ Como gestor financeiro, visualizar a classificação automatizada da Curva ABC por criticidade e impacto orçamentário.</li>
+</ul>
+</div>
 
 ## 📌 SPRINT 2 – ENTREGA EM 30/10
-- ⬜ Como gestor financeiro, consultar o ranking dos materiais de maior impacto financeiro.
-- ⬜ Como analista de suprimentos, visualizar alertas de estoque parado, excessivo e risco de ruptura.
-- ⬜ Como analista de logística, identificar materiais com risco de obsolescência e gargalos no processo de reposição.
-- ⬜ Como planejador de estoque, consultar o tempo de cobertura em dias para cada item.
-- ⬜ Como analista de logística, visualizar análises preditivas de consumo.
-- ⬜ Como analista de logística, acompanhar indicadores de eficiência logística.
-- ⬜ Como cliente da CPTM, visualizar a evolução do dashboard com os ajustes da Entrega 1 implementados.
-- ⬜ Como gestor, navegar por um dashboard de BI estruturado, consolidado e com visual profissional.
-- ⬜ Como usuário final, acessar a plataforma de forma responsiva em diferentes telas e dispositivos.
+<div align="justify">
+<ul>
+<li>⬜ Como gestor financeiro, consultar o ranking dos materiais de maior impacto financeiro.</li>
+<li>⬜ Como analista de suprimentos, visualizar alertas de estoque parado, excessivo e risco de ruptura.</li>
+<li>⬜ Como analista de logística, identificar materiais com risco de obsolescência e gargalos no processo de reposição.</li>
+<li>⬜ Como planejador de estoque, consultar o tempo de cobertura em dias para cada item.</li>
+<li>⬜ Como analista de logística, visualizar análises preditivas de consumo.</li>
+<li>⬜ Como analista de logística, acompanhar indicadores de eficiência logística.</li>
+<li>⬜ Como cliente da CPTM, visualizar a evolução do dashboard com os ajustes da Entrega 1 implementados.</li>
+<li>⬜ Como gestor, navegar por um dashboard de BI estruturado, consolidado e com visual profissional.</li>
+<li>⬜ Como usuário final, acessar a plataforma de forma responsiva em diferentes telas e dispositivos.</li>
+</ul>
+</div>
 
 ## 📌 SPRINT 3 – ENTREGA EM 27/11
-- ⬜ Como equipe de TI da CPTM, receber a documentação técnica do modelo de dados para futura integração com o ERP ALVO.
-- ⬜ Como gestor executivo, navegar por um dashboard gerencial consolidado com os principais KPIs estratégicos.
-- ⬜ Como cliente e avaliador, assistir ao vídeo demonstrativo e acompanhar a apresentação na Feira de Soluções.
+<div align="justify">
+<ul>
+<li>⬜ Como equipe de TI da CPTM, receber a documentação técnica do modelo de dados para futura integração com o ERP ALVO.</li>
+<li>⬜ Como gestor executivo, navegar por um dashboard gerencial consolidado com os principais KPIs estratégicos.</li>
+<li>⬜ Como cliente e avaliador, assistir ao vídeo demonstrativo e acompanhar a apresentação na Feira de Soluções.</li>
+</ul>
+</div>
 <br>
 
 | Sprint | Previsão | Status | Histórico |
 |--------|----------|--------|-----------|
-| Sprint 01 – Tratamento de Dados e Dashboard Inicial | 02/10 | Em andamento | *A definir* |
+| Sprint 01 – Tratamento de Dados e Dashboard Inicial | 05/10/2026 | Em andamento | [MVP](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/MVP%20I.md) |
 | Sprint 02 – Estruturação dos Indicadores e Alertas | 30/10 | Planejado | *A definir* |
 | Sprint 03 – Documentação dos Processos e Entrega Final | 27/11 | Planejado | *A definir* |
 <br>
 
 # VÍDEO — ENTENDIMENTO DO PROBLEMA
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=3cuBrjPUTWU">
-    <img src="https://img.youtube.com/vi/3cuBrjPUTWU/maxresdefault.jpg" width="600" alt="Vídeo de entendimento do problema - CPTM">
-  </a>
-</p>
 
 <p align="center">
   ▶️ <a href="https://www.youtube.com/watch?v=3cuBrjPUTWU"><b>Clique aqui para assistir ao vídeo de entendimento do problema</b></a>
@@ -158,13 +163,11 @@ Nesse contexto, destaca-se a importância da interdisciplinaridade, possibilitan
 
 # AGRADECIMENTOS 
 
-<p align="justify">
-Agradecemos aos professores, orientadores e colegas de equipe pelo apoio, dedicação e colaboração ao longo do desenvolvimento deste projeto. As orientações e conhecimentos compartilhados foram fundamentais para o aprimoramento de nossa formação e para a realização deste trabalho.
+<p align="justify">Agradecemos aos professores, orientadores e colegas de equipe pelo apoio, dedicação e colaboração ao longo do desenvolvimento deste projeto. As orientações e conhecimentos compartilhados foram fundamentais para o aprimoramento de nossa formação e para a realização deste trabalho.</p>
 
-Agradecemos também à CPTM pela oportunidade de aplicar, em um desafio real de gestão logística, os conhecimentos adquiridos durante nossa trajetória acadêmica. Essa experiência contribuiu significativamente para ampliar nossa compreensão sobre a prática profissional e os desafios presentes na área.
+<p align="justify">Agradecemos também à CPTM pela oportunidade de aplicar, em um desafio real de gestão logística, os conhecimentos adquiridos durante nossa trajetória acadêmica. Essa experiência contribuiu significativamente para ampliar nossa compreensão sobre a prática profissional e os desafios presentes na área.</p>
 
-Por fim, reconhecemos o empenho e a contribuição de todos os envolvidos, que foram essenciais para a construção deste projeto e para o aprendizado proporcionado por essa experiência.
-</p>
+<p align="justify">Por fim, reconhecemos o empenho e a contribuição de todos os envolvidos, que foram essenciais para a construção deste projeto e para o aprendizado proporcionado por essa experiência.</p>
 <br>
 
 <img width="2170" height="725" alt="ChatGPT Image 10 de set  de 2026, 21_01_44" src="https://github.com/user-attachments/assets/30e18ed5-e035-4870-80af-39296d591961" />
