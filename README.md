@@ -148,9 +148,8 @@
 * <img src="https://github.com/user-attachments/assets/bf25df7a-bd70-482f-8cc6-8a28e014151b" width="40"/> *PowerBI*
 * <img src="https://github.com/user-attachments/assets/d3cc67f6-258f-47bf-a1b8-4cd6cf8841fd" width="40"/>  *Python*
 * <img src="https://github.com/user-attachments/assets/680b9d0e-807f-41d0-8552-304c62e4baf8" width="40"/>  *Google Colab*
-<br>
 * <img src="https://github.com/user-attachments/assets/b35940c4-23c9-4433-8cb1-5187d046e08a" width="40"/>  *Antigravity*
-<br>
+  
 
 # MEIOS DE COMUNICAÇÃO 
 
