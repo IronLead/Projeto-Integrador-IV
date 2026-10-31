@@ -13,13 +13,11 @@
 * [Resultado esperado](#resultado-esperado)
 * [Equipe](#equipe)
 * [Cronograma das Sprints](#cronograma-das-sprints)
-* [Comandos utilizados](#comandos-utilizados)
 * [Dashboard](#dashboard)
 * [Documentação](#documentação)
 * [Apresentação em Slide](#apresentação-em-slide)
 * [Ferramentas utilizadas](#ferramentas-utilizadas)
 * [Meios de comunicação](#meios-de-comunicação)
-* [Serviços utilizados](#serviços-utilizados)
 * [Agradecimentos](#agradecimentos)
 
 # <h1 align="center"> SOBRE O PROJETO
@@ -110,18 +108,12 @@
 </p>
 <br>
 
-# COMANDOS UTILIZADOS
-
-<!-- Estrutura reservada: inserir aqui os comandos/scripts utilizados no tratamento e ETL dos dados do ERP ALVO, assim que estiverem disponíveis. -->
-
-* 🔗 *A definir*
-<br>
-
 # DASHBOARD
 
 <!-- Estrutura reservada: inserir aqui as imagens e links dos dashboards em Power BI desenvolvidos em cada sprint, assim que estiverem disponíveis. -->
 
 * 🔗 *A definir*
+* <img src="https://github.com/user-attachments/assets/d3cc67f6-258f-47bf-a1b8-4cd6cf8841fd" width="30"/> 🔗 [ETL em Python — etl_cptm_powerbi.py](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/etl_cptm_powerbi.py)
 <br>
 
 # DOCUMENTAÇÃO
@@ -155,11 +147,6 @@
 
 * <img src="https://github.com/user-attachments/assets/e0219d75-7e97-4072-bd6a-186a299c096b" width="40"/>  *Whatsapp*
 * <img src="https://github.com/user-attachments/assets/dedec4fc-d1ff-45f9-a88d-875e36b72629" width="40"/>  *Teams*   
-<br>
-
-# SERVIÇOS UTILIZADOS
-
-<!-- Estrutura reservada: projeto novo — aguardando definição dos serviços/fontes de dados específicos utilizados (ex.: ERP ALVO). -->
 <br>
 
 # AGRADECIMENTOS 
