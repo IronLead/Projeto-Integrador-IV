@@ -136,7 +136,7 @@
 <!-- Estrutura reservada: inserir aqui os links das apresentações em slide de cada sprint assim que estiverem disponíveis. -->
 
 * <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 Sprint_1 — [Apresentação - Sprint 1](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/Apresentacao-Sprint-1.pdf)
-* <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 Sprint_2 — [Apresentação - Sprint 2](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/Apresentacao-Sprint-2.pdf)
+* <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 Sprint_2 — [Apresentação - Sprint 2](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/Apresenta%C3%A7%C3%A3o%20-%20Sprint%202.pdf)
 * <img src="https://github.com/user-attachments/assets/6240b221-eb7d-4cc7-957c-93622513f7c5" width="30"/> 🔗 Sprint_3 — *A definir*
 <br>
 
