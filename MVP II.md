@@ -14,6 +14,7 @@ O [MVP I](./MVP_I.md) entregou o pipeline de ETL, o modelo Star Schema e a Curva
 - **Linhagem do código:** como o script `etl_cptm_powerbi.py` está organizado, função por função e tabela por tabela.
 - **Decisões técnicas:** por que Calamine, Unpivot, Parquet, Star Schema e a exclusão do relatório RES47.
 - **Biblioteca DAX:** as 32 medidas da tabela `_Medidas`, prontas para os dashboards.
+- **Manual operacional:** como o usuário final guarda um relatório novo, executa a atualização e confere o resultado, ligado a cada seção acima.
 
 > ℹ️ Contexto do projeto, objetivos, estrutura do repositório, descrição das bases, arquitetura Star Schema, matriz de relacionamentos, benchmarks e resultados da Curva ABC estão no **MVP I** e **não são repetidos aqui**. Quando necessário, esta página aponta para a seção correspondente.
 
@@ -25,6 +26,7 @@ O [MVP I](./MVP_I.md) entregou o pipeline de ETL, o modelo Star Schema e a Curva
 | [3. Linhagem do código Python](#-3-linhagem-do-código-python-etl_cptm_powerbipy) | Como o ETL está organizado e o que cada função faz? | `etl_cptm_powerbi.py` (raiz do projeto) |
 | [4. Decisões técnicas](#-4-decisões-técnicas-complementares) | Por que essas tecnologias e escolhas de modelagem? | `Explicacao_Engine_Rust_Calamine`, `Explicacao_Unpivot_Melt`, `Explicacao_Formato_Parquet`, `Explicacao_Modelo_Star_Schema`, `Relacionamentos_PowerBI_CPTM`, `Explicacao_Uso_Arquivo_RES47` |
 | [5. Biblioteca DAX](#-5-biblioteca-de-medidas-dax-_medidas) | Quais medidas existem e como criá-las? | `Guia_Medidas_DAX_CPTM` |
+| [6. Manual operacional](#-6-manual-operacional-como-atualizar-os-dados) | Onde guardo um relatório novo, como atualizo os dados e como sei que deu certo? | Manual de respostas (usuário final) |
 
 ---
 
@@ -699,9 +701,129 @@ Após inserir as medidas, confira os valores esperados no Power BI Desktop:
 
 ---
 
-## 🏁 6. Status e próximos passos
+## 📘 6. Manual operacional: como atualizar os dados
 
-Com o MVP II, as chaves são rastreáveis até a coluna do ERP, o código do ETL está documentado função por função, as decisões de modelagem estão justificadas e a camada semântica (32 medidas) está pronta para consumo. O próximo passo é a **Etapa 3**: construção dos dashboards sobre este modelo, conforme os painéis planejados no MVP I (seção 9).
+Esta seção traz o **Manual de respostas** (guia do usuário final) e o liga ao que o MVP II documenta: a **pasta** onde cada relatório é guardado leva à tabela gerada (seção 3.4), o **nome do arquivo** define datas e categorias (seção 2.2), a **execução** segue o fluxo da seção 3 e o **resultado** alimenta o modelo e as medidas (seções 4.3 e 5.5).
+
+### 6.1 Como guardar um relatório
+
+**Passo 1:** abra a pasta `C:\CPTM\01_Bases_ERP`.
+
+**Passo 2:** identifique se o relatório é uma **Dimensão** ou um **Fato** (ver o glossário, seção 6.5). A regra prática: cadastros descritivos (produtos, estrutura organizacional, centros de custo) são Dimensões; relatórios de saldo, planejamento, consumo, movimentação e requisição são Fatos.
+
+> ⚠️ **Informação a confirmar:** o próprio manual marca este passo como pendente de validação. Até a confirmação, use a tabela do passo 3 como referência.
+
+**Passo 3:** salve o arquivo na subpasta correspondente.
+
+```text
+CPTM/
+└── 01_Bases_ERP/
+    ├── Dimensoes/
+    │   ├── 01_Produtos                      ← 1. PROD_20260824
+    │   ├── 02_Estrutura_Organizacional      ← 0. Estrutura Organizacional_20260824
+    │   └── 03_Centros_de_Custo              ← 3. Centro de Custo_20260824
+    ├── Fatos/
+    │   ├── Requisicoes_Workflow             ← 8. Movimentações Materiais_20260825
+    │   ├── RES34_Estoque_Almoxarifado       ← 4. RES34_20260824
+    │   ├── RES43_Planejamento_Reposicao     ← 2. RES43 Essencial / Estratégico / Normal_20260824
+    │   ├── RES47_Estoque_Consumo            ← 5. RES47_20260824
+    │   ├── RES75_Consumo_PCA_Historico      ← 6. RES75_20260824
+    │   └── RES82_Movimentacoes_Estoque      ← 7. RES82_20260825
+    └── Processados_PowerBI/                 ← saída do ETL (seção 6.4)
+02_Documentacao/
+03_Modelos_PBIX/
+```
+
+**O que cada pasta alimenta no modelo:**
+
+| Tipo | Pasta de destino | Arquivo do ERP (exemplo) | Tabela gerada | Chaves `ID_*` criadas (seção 2.2) |
+| :--- | :--- | :--- | :--- | :--- |
+| Dimensão | `Dimensoes/01_Produtos` | `1. PROD_20260824` | `dProdutos` | `ID_Produto_Reduzido`, `ID_Produto_Estruturado` |
+| Dimensão | `Dimensoes/02_Estrutura_Organizacional` | `0. Estrutura Organizacional_20260824` | `dEstruturaOrganizacional` | `ID_Sigla_CC`, `ID_Centro_Custo` |
+| Dimensão | `Dimensoes/03_Centros_de_Custo` | `3. Centro de Custo_20260824` | `dCentroCusto` | `ID_Centro_Custo`, `ID_Sigla_CC` |
+| Fato | `Fatos/RES43_Planejamento_Reposicao` | 3 arquivos: Essencial, Estratégico e Normal | `fPlanejamento_RES43` | `ID_Produto_Reduzido`, `ID_Produto_Estruturado`, `ID_Centro_Custo`, `ID_Data` |
+| Fato | `Fatos/RES34_Estoque_Almoxarifado` | `4. RES34_20260824` | `fEstoque_Almoxarifado_RES34` | `ID_Produto_Reduzido`, `ID_Produto_Estruturado`, `ID_Data` |
+| Fato | `Fatos/RES47_Estoque_Consumo` | `5. RES47_20260824` | **Nenhuma** (só diagnóstico, seção 4.5) | n/a |
+| Fato | `Fatos/RES75_Consumo_PCA_Historico` | `6. RES75_20260824` | `fConsumoHistorico_RES75` | `ID_Produto_Reduzido`, `ID_Produto_Estruturado`, `ID_Centro_Custo` |
+| Fato | `Fatos/RES82_Movimentacoes_Estoque` | `7. RES82_20260825` | `fMovimentacoes_RES82` | `ID_Produto_Estruturado`, `ID_Data` |
+| Fato | `Fatos/Requisicoes_Workflow` | `8. Movimentações Materiais_20260825` | `fRequisicoes_Workflow` | `ID_Centro_Custo`, `ID_Data` |
+| Gerada por código | (sem arquivo) | n/a | `dCalendario` | `ID_Data` (2014–2030) |
+
+**Cuidados ao salvar** (consequências do que o ETL faz, seções 2.2, 3.2 e 3.4):
+
+| Cuidado | Por quê |
+| :--- | :--- |
+| Mantenha a data `YYYYMMDD` no nome do arquivo | Em `fPlanejamento_RES43` e `fEstoque_Almoxarifado_RES34`, o `ID_Data` vem do nome do arquivo (data de corte do saldo). Sem a data, a fato fica sem vínculo com `dCalendario` |
+| Mantenha `Essencial`, `Estratégico` ou `Normal` no nome dos arquivos do RES43 | A `Categoria_Consumo` é definida pelo nome; sem uma dessas palavras, o padrão é `Normal`. As medidas da seção 5 (ex.: `Compra Necessária - Estratégico (R$)`) dependem dela |
+| Use apenas `.xlsx`, `.xls` ou `.xlsm` | São os formatos lidos; arquivos temporários do Excel (`~$`) são ignorados |
+| Cada pasta tem de conter pelo menos um arquivo | Pasta vazia gera `FileNotFoundError` com o nome da pasta |
+| Cuidado com arquivos antigos na mesma pasta | O ETL lê **todos** os Excel da pasta e concatena. Dimensões e as fatos RES82 e Workflow são desduplicadas, mas RES34 e RES43 apenas ganham o `ID_Data` de cada arquivo: deixar duas datas na pasta empilha as duas fotografias |
+| Guarde o RES47 se quiser, mas saiba que ele não entra no modelo | Foi excluído de propósito (seção 4.5) |
+
+### 6.2 Processamento de dados
+
+| Item | Resposta do manual | Relação com o MVP II |
+| :--- | :--- | :--- |
+| **Nome do arquivo do script** | `etl_cptm_powerbi` | Script descrito na seção 3 (`etl_cptm_powerbi.py`, ícone "Arquivo Fonte Python", 26 KB) |
+| **Local onde o script está salvo** | `C:\CPTM` | É a raiz do projeto. A constante `DIRETORIO_RAIZ` precisa apontar para essa pasta (seção 3.2) |
+| **Como executar** | Dois cliques no arquivo `ATUALIZAR_DADOS_POWERBI`, salvo em `C:\CPTM` | Equivale ao comando `python etl_cptm_powerbi.py` da seção 3.2 |
+| **Parâmetros necessários** | Não tem | Todos os caminhos (`PASTA_BASES`, `PASTA_DIMENSOES`, `PASTA_FATOS`, `PASTA_SAIDA`) são derivados de `DIRETORIO_RAIZ`; só é preciso editar se a pasta `CPTM` mudar de lugar |
+| **Como saber que terminou com sucesso** | O script mostra mensagem na tela | Ver a leitura da tela na seção 6.3 |
+
+> O passo a passo da execução já está resumido na tabela acima, por isso não é repetido em uma subseção própria.
+
+### 6.3 Como ler a tela de execução
+
+A janela **"CPTM - Atualização de Dados para Power BI"** mostra o log do ETL na ordem do fluxo da seção 3.1. Cada trecho tem uma correspondência com o que está documentado neste MVP:
+
+| O que aparece na tela | O que significa | Confira com |
+| :--- | :--- | :--- |
+| `[ETL] Processando Fato: ...` e `Lendo: <arquivo>.xlsx` | O pipeline está lendo o Excel da pasta da tabela | Ordem das tabelas na seção 3.4 |
+| `fMovimentacoes_RES82 concluído: 99118 linhas consolidadas de 1 arquivo(s)` | Linhas após a desduplicação pela coluna `Chave` | Seção 3.4, linha 8 |
+| `fRequisicoes_Workflow concluído: 67331 linhas consolidadas de 1 arquivo(s)` | Linhas após a desduplicação pela coluna `Número` | `Total de Requisições (RMs)` = **67.331** (seção 5.5) |
+| `Curva ABC concluída! Resumo: {'Sem Consumo': 42204, 'Classe C': 14146, 'Classe B': 452, 'Classe A': 28}` | Contagem de produtos por classe, impressa por `enriquecer_dprodutos_curva_abc()` | `Itens Sem Giro` = **42.204**; `Itens com Consumo Histórico` = 14.146 + 452 + 28 = **14.626**; soma = **56.830** = `Total Itens Cadastrados` (seções 3.5 e 5.5) |
+| `[SUCESSO] Tabela '...' salva em CSV` e `salva em Parquet` | Cada uma das 9 tabelas foi gravada nos dois formatos (18 arquivos) | Seção 6.4 |
+| `PIPELINE DE ETL CONCLUÍDO COM SUCESSO!` e `ATUALIZACAO CONCLUIDA COM SUCESSO!` | Fim normal da execução | n/a |
+| `[ERRO CRÍTICO]` | Uma tabela falhou, as demais seguem. Se for `dProdutos` ou `fConsumoHistorico_RES75`, a Curva ABC é ignorada | Seção 3.2 |
+| `[AVISO]` | Falha só na gravação do Parquet; o CSV daquela tabela foi salvo | Seção 3.2 |
+
+A tela termina com o **próximo passo**: abrir o arquivo `.pbix` (`03_Modelos_PBIX/CPTM.pbix`) no Power BI Desktop e clicar em **Atualizar**. Se os cartões da seção 5.5 baterem com o log, a atualização foi consistente.
+
+### 6.4 Onde ficam os resultados
+
+Todos os arquivos são gravados em `C:\CPTM\01_Bases_ERP\Processados_PowerBI`, em dois formatos por tabela:
+
+| Tabela | Tamanho do `.csv` | Tamanho do `.parquet` |
+| :--- | ---: | ---: |
+| `dCalendario` | 636 KB | 101 KB |
+| `dProdutos` | 41.691 KB | 7.241 KB |
+| `dEstruturaOrganizacional` | 14 KB | 14 KB |
+| `dCentroCusto` | 734 KB | 143 KB |
+| `fConsumoHistorico_RES75` | 23.210 KB | 2.561 KB |
+| `fEstoque_Almoxarifado_RES34` | 1.997 KB | 783 KB |
+| `fMovimentacoes_RES82` | 29.069 KB | 3.897 KB |
+| `fPlanejamento_RES43` | 314 KB | 127 KB |
+| `fRequisicoes_Workflow` | 25.851 KB | 4.703 KB |
+
+Nas tabelas grandes o Parquet ocupa uma fração do CSV, o que sustenta a recomendação da seção 4.3 de importar **prioritariamente os arquivos `.parquet`**. Lembre que as fatos RES43, RES34, RES82 e Workflow ainda exigem a tipagem do Power Query descrita na seção 5.2.
+
+### 6.5 Glossário
+
+| Termo | Definição (manual) | Como aparece neste projeto |
+| :--- | :--- | :--- |
+| **Dimensão** | Tabela que armazena os **atributos descritivos** que dão contexto às métricas da tabela Fato. Responde às perguntas do negócio: *quem, o quê, onde, quando, por que* e *como* | Prefixo `d`: `dCalendario` (quando), `dProdutos` (o quê), `dEstruturaOrganizacional` e `dCentroCusto` (onde e quem). Lado **1** dos relacionamentos |
+| **Fato** | Tabela que armazena as **métricas quantitativas** ou **medidas** de um processo de negócio | Prefixo `f`: estoque, planejamento, consumo, movimentações e requisições. Lado **N** dos relacionamentos, base das 32 medidas da `_Medidas` (seção 5) |
+
+### 6.6 Pendências do manual
+
+- **Passo 2 da seção 6.1:** a regra de identificação entre Dimensão e Fato está marcada como "informação a confirmar".
+- **Imagens:** o manual orienta não inserir uma figura por pasta (seriam muitas) e não repetir a figura da tabela de execução. Por isso esta seção usa a árvore de pastas em texto e o log em tabela. As telas originais (estrutura de pastas, execução do ETL e pasta `Processados_PowerBI`) continuam no manual.
+
+---
+
+## 🏁 7. Status e próximos passos
+
+Com o MVP II, as chaves são rastreáveis até a coluna do ERP, o código do ETL está documentado função por função, as decisões de modelagem estão justificadas, a camada semântica (32 medidas) está pronta para consumo e o procedimento de atualização está descrito para o usuário final (seção 6). O próximo passo é a **Etapa 3**: construção dos dashboards sobre este modelo, conforme os painéis planejados no MVP I (seção 9).
 
 ---
 
