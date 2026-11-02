@@ -69,7 +69,7 @@
 </ul>
 </div>
 
-## 📌 SPRINT 2 – ENTREGA EM 30/10
+## 📌 SPRINT 2 – ENTREGA EM 02/11/2026
 <div align="justify">
 <ul>
 <li>⬜ Como gestor financeiro, consultar o ranking dos materiais de maior impacto financeiro.</li>
@@ -97,7 +97,7 @@
 | Sprint | Previsão | Status | Histórico |
 |--------|----------|--------|-----------|
 | Sprint 01 – Tratamento de Dados e Dashboard Inicial | 05/10/2026 | Finalizado | [MVP](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/MVP%20I.md) |
-| Sprint 02 – Estruturação dos Indicadores e Alertas | 30/10/2026 | Em andamento | [MVP](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/MVP%20II.md) |
+| Sprint 02 – Estruturação dos Indicadores e Alertas | 02/11/2026 | Em andamento | [MVP](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/MVP%20II.md) |
 | Sprint 03 – Documentação dos Processos e Entrega Final | 27/11/2026 | Planejado | *A definir* |
 <br>
 
