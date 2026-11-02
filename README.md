@@ -56,16 +56,16 @@
 ## 📌 SPRINT 1 – ENTREGA EM 05/10/2026
 <div align="justify">
 <ul>
-<li>⬜ Como gestor de estoque, tratar e higienizar os dados do ERP ALVO, garantindo consistência e confiabilidade nas análises.</li>
-<li>⬜ Como gestor do projeto, estruturar o repositório no GitHub para garantir rastreabilidade e versionamento dos artefatos.</li>
-<li>⬜ Como analista de dados, modelar a base com o histórico de movimentações para realizar análises temporais de entradas e saídas.</li>
-<li>⬜ Como gestor de estoque, visualizar no dashboard a quantidade total de itens, o valor total imobilizado e o estoque médio.</li>
-<li>⬜ Como usuário do dashboard, aplicar filtros por almoxarifado, período, tipo de material e centro de custo.</li>
-<li>⬜ Como analista de logística, acompanhar a evolução temporal do estoque e o histórico de entradas e saídas.</li>
-<li>⬜ Como usuário final, navegar por uma interface intuitiva e acessível, com o menor número de cliques possível.</li>
-<li>⬜ Como analista de logística, visualizar os indicadores de giro de estoque por material (alta e baixa rotatividade).</li>
-<li>⬜ Como gestor financeiro, consultar o tempo médio de permanência dos materiais armazenados.</li>
-<li>⬜ Como gestor financeiro, visualizar a classificação automatizada da Curva ABC por criticidade e impacto orçamentário.</li>
+<li>✅ Como gestor de estoque, tratar e higienizar os dados do ERP ALVO, garantindo consistência e confiabilidade nas análises.</li>
+<li>✅ Como gestor do projeto, estruturar o repositório no GitHub para garantir rastreabilidade e versionamento dos artefatos.</li>
+<li>✅ Como analista de dados, modelar a base com o histórico de movimentações para realizar análises temporais de entradas e saídas.</li>
+<li>✅ Como gestor de estoque, visualizar no dashboard a quantidade total de itens, o valor total imobilizado e o estoque médio.</li>
+<li>✅ Como usuário do dashboard, aplicar filtros por almoxarifado, período, tipo de material e centro de custo.</li>
+<li>✅ Como analista de logística, acompanhar a evolução temporal do estoque e o histórico de entradas e saídas.</li>
+<li>✅ Como usuário final, navegar por uma interface intuitiva e acessível, com o menor número de cliques possível.</li>
+<li>✅ Como analista de logística, visualizar os indicadores de giro de estoque por material (alta e baixa rotatividade).</li>
+<li>✅ Como gestor financeiro, consultar o tempo médio de permanência dos materiais armazenados.</li>
+<li>✅ Como gestor financeiro, visualizar a classificação automatizada da Curva ABC por criticidade e impacto orçamentário.</li>
 </ul>
 </div>
 
