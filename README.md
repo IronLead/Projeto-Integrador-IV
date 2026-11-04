@@ -112,7 +112,7 @@
 
 <!-- Estrutura reservada: inserir aqui as imagens e links dos dashboards em Power BI desenvolvidos em cada sprint, assim que estiverem disponíveis. -->
 
-* 🔗 *A definir*
+* 📊 [Clique aqui para visualizar o Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiN2IwMzFiNmMtOTY1Mi00OTRmLWFmYTYtYjUyMWJhMGNhNzk1IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)
 * <img src="https://github.com/user-attachments/assets/d3cc67f6-258f-47bf-a1b8-4cd6cf8841fd" width="30"/> 🔗 [ETL em Python — etl_cptm_powerbi.py](https://github.com/IronLead/Projeto-Integrador-IV/blob/main/etl_cptm_powerbi.py)
 <br>
 
